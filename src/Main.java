@@ -1,11 +1,15 @@
-import easy.longestSubString;
+import easy.plusOne;
+
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        longestSubString solver = new longestSubString();
+        plusOne solver = new plusOne();
+        int[] question = {9,9,9};
 
-        int result = solver.lengthOfLongestSubstring("abcaaa");
 
-        System.out.println("Sonuç: " + result);
+        int[] result = solver.plusOneSolution(question);
+
+        System.out.println("Sonuç: " + Arrays.toString(result));
     }
 }

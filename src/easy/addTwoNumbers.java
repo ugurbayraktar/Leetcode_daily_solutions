@@ -4,10 +4,14 @@ public class addTwoNumbers {
     static class ListNode {
         int val;
         ListNode next; //pointer
-        ListNode() {}  // empty constructor
+
+        ListNode() {
+        }  // empty constructor
+
         ListNode(int val) {   // create a node with value
             this.val = val;
         }
+
         ListNode(int val, ListNode next) {
             this.val = val;
             this.next = next;
@@ -46,7 +50,7 @@ public class addTwoNumbers {
         ListNode p1 = l1;
         ListNode p2 = l2;
         int carry = 0;
-        int digit= 0;
+        int digit = 0;
 
         while (p1 != null || p2 != null) {
             int x = (p1 != null) ? p1.val : 0;
