@@ -1,15 +1,15 @@
-import easy.plusOne;
+import easy.isomorphicString;
 
 import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        plusOne solver = new plusOne();
-        int[] question = {9,9,9};
+        isomorphicString solver = new isomorphicString();
+        int[] question = {10,-5,-3,0,5,8,9};
 
 
-        int[] result = solver.plusOneSolution(question);
+        boolean result = solver.isIsomorphic("foo","bar");
 
-        System.out.println("Sonuç: " + Arrays.toString(result));
+        System.out.println("Sonuç: " + result);
     }
 }
