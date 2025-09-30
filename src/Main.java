@@ -1,14 +1,14 @@
-import easy.isomorphicString;
+import easy.majorityElements;
 
 import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        isomorphicString solver = new isomorphicString();
-        int[] question = {10,-5,-3,0,5,8,9};
+        majorityElements solver = new majorityElements();
+        int[] question = {3,3,4};
 
 
-        boolean result = solver.isIsomorphic("foo","bar");
+        int result = solver.majorityElement(question);
 
         System.out.println("Sonuç: " + result);
     }
