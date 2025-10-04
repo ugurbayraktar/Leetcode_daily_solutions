@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e90cdc13-0bdc-4cd8-bc12-0bc9bc8c0f9f" name="Changes" comment="question 290 and 169">
-      <change afterPath="$PROJECT_DIR$/src/easy/containsDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/containsDuplicateII.java" afterDir="false" />
+    <list default="true" id="e90cdc13-0bdc-4cd8-bc12-0bc9bc8c0f9f" name="Changes" comment="question 217 and 219">
+      <change afterPath="$PROJECT_DIR$/src/easy/licenceKeyFormatting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/missingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/validAnagram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -138,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1759225391232</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="question 217 and 219">
+      <created>1759469606928</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1759469606928</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -147,6 +155,7 @@
     <MESSAGE value="question 3 and 66" />
     <MESSAGE value="question 108 and 205" />
     <MESSAGE value="question 290 and 169" />
-    <option name="LAST_COMMIT_MESSAGE" value="question 290 and 169" />
+    <MESSAGE value="question 217 and 219" />
+    <option name="LAST_COMMIT_MESSAGE" value="question 217 and 219" />
   </component>
 </project>
