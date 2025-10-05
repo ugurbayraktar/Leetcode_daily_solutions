@@ -18,7 +18,6 @@ public class missingNumber {
         }
 
         return  5;
-
     }
 }
 /*

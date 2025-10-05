@@ -1,17 +1,26 @@
-import easy.licenceKeyFormatting;
+import easy.findTheDifference;
 
 import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        licenceKeyFormatting solver = new licenceKeyFormatting();
+        findTheDifference solver = new findTheDifference();
         int[] question = {9,6,4,2,3,5,7,0,1};
         int k = 2;
-        String s = "2-5g-3-J";
-        String t  = "nagaram";
+        String s = "aaabbc";
+        String t  = "ababce";
 
-        String result = solver.licenseKeyFormatting(s, k);
+        char result = solver.findTheDifference(s,t);
 
         System.out.println("Sonuç: " + result);
     }
 }
+
+// {a=2, b=1, c=1}
+
+// aaa
+
+// aaaa
+
+// {a,b,c,e}
+// {a,b,c}
