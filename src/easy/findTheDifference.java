@@ -6,35 +6,17 @@ import java.util.HashSet;
 public class findTheDifference {
     public char findTheDifference(String s, String t) {
 
-        char charS;
-        char charT;
-        HashMap<Character,Integer> hashMapS = new HashMap<>();
-        HashMap<Character,Integer> hashMapT = new HashMap<>();
+        HashMap<Character,Integer> map = new HashMap<>();
 
         for(char c : s.toCharArray()){
-            if(hashMapS.containsKey(c)){
-                hashMapS.put(c, hashMapS.get(c) + 1);
-            }else{
-                hashMapS.put(c,1);
-            }
+            map.put(c, map.getOrDefault(c,0) + 1);
         }
-        // aa
-        // aaa
-
         for(char c : t.toCharArray()){
-            if(hashMapS.containsKey(c)){
-                hashMapT.put(c, hashMapT.get(c) + 1);
-            }else{
-                hashMapT.put(c,1);
-            }
+            if(map.getOrDefault(c,0) == 0){
+                return c;
+            }else map.put(c, map.get(c) -1 );
         }
-        System.out.println(hashMapT);
-        System.out.println(hashMapS);
 
-
-
-
-
-        return 't';
+        return ' ';
     }
 }

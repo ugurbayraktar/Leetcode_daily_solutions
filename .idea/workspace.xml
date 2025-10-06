@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e90cdc13-0bdc-4cd8-bc12-0bc9bc8c0f9f" name="Changes" comment="question 268 and 482">
-      <change afterPath="$PROJECT_DIR$/src/easy/findTheDifference.java" afterDir="false" />
+    <list default="true" id="e90cdc13-0bdc-4cd8-bc12-0bc9bc8c0f9f" name="Changes" comment="question 657">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/easy/missingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/missingNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/easy/robotReturnToOriginal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/robotReturnToOriginal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/findTheDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/findTheDifference.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1759580805285</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="question 657">
+      <created>1759697439990</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1759697439990</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -164,6 +168,7 @@
     <MESSAGE value="question 290 and 169" />
     <MESSAGE value="question 217 and 219" />
     <MESSAGE value="question 268 and 482" />
-    <option name="LAST_COMMIT_MESSAGE" value="question 268 and 482" />
+    <MESSAGE value="question 657" />
+    <option name="LAST_COMMIT_MESSAGE" value="question 657" />
   </component>
 </project>
