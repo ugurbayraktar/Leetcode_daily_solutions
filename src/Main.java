@@ -1,26 +1,17 @@
-import easy.findTheDifference;
+import easy.singleNumber;
 
 import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        findTheDifference solver = new findTheDifference();
-        int[] question = {9,6,4,2,3,5,7,0,1};
+        singleNumber solver = new singleNumber();
+        int[] question = {4,1,2,1,2};
         int k = 2;
         String s = "aa";
         String t  = "aaa";
 
-        char result = solver.findTheDifference(s,t);
+        int result = solver.singleNumber(question);
 
         System.out.println("Sonuç: " + result);
     }
 }
-
-// {a=2, b=1, c=1}
-
-// aaa
-
-// aaaa
-
-// {a,b,c,e}
-// {a,b,c}
