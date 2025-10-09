@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e90cdc13-0bdc-4cd8-bc12-0bc9bc8c0f9f" name="Changes" comment="question 389">
-      <change afterPath="$PROJECT_DIR$/src/easy/singleNumber.java" afterDir="false" />
+    <list default="true" id="e90cdc13-0bdc-4cd8-bc12-0bc9bc8c0f9f" name="Changes" comment="question 136">
+      <change afterPath="$PROJECT_DIR$/src/easy/ransomNote.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -165,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1759731976091</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="question 136">
+      <created>1759863649744</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1759863649744</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -178,6 +185,7 @@
     <MESSAGE value="question 268 and 482" />
     <MESSAGE value="question 657" />
     <MESSAGE value="question 389" />
-    <option name="LAST_COMMIT_MESSAGE" value="question 389" />
+    <MESSAGE value="question 136" />
+    <option name="LAST_COMMIT_MESSAGE" value="question 136" />
   </component>
 </project>

@@ -1,16 +1,16 @@
-import easy.singleNumber;
+import easy.ransomNote;
 
 import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        singleNumber solver = new singleNumber();
+        ransomNote solver = new ransomNote();
         int[] question = {4,1,2,1,2};
         int k = 2;
         String s = "aa";
-        String t  = "aaa";
+        String t  = "aab";
 
-        int result = solver.singleNumber(question);
+        boolean result = solver.canConstruct(s,t);
 
         System.out.println("Sonuç: " + result);
     }
