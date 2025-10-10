@@ -1,16 +1,16 @@
-import easy.findTheDifference;
+import easy.generateTagForVideoCaption;
 
 import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        findTheDifference solver = new findTheDifference();
+        generateTagForVideoCaption solver = new generateTagForVideoCaption();
         int[] question = {9,6,4,2,3,5,7,0,1};
         int k = 2;
-        String s = "aa";
+        String s = "Leetcode, daily. streak- achieved";
         String t  = "aaa";
 
-        char result = solver.findTheDifference(s,t);
+        String result = solver.generateTag(s);
 
         System.out.println("Sonuç: " + result);
     }
